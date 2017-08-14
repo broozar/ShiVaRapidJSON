@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<plugin name="RapidJSON" version="1.1.0" s3dx_sdk_version="0x1090200">
+
+		<info>
+			<description>RapidJSON for ShiVa 192</description>
+			<author>
+				<name>Felix Caffier</name>
+				<mail>support@shiva-engine.com</mail>
+				<site>http://www.trisymphony.com</site>
+			</author>
+		</info>
+
+		<certificate></certificate>
+
+		<files>
+			<platform type="Windows">
+				<arch type="x86_32">RapidJSON_Windows.dll</arch>
+				<arch type="x86_64">RapidJSON_Windows64.dll</arch>
+			</platform>
+
+			<platform type="WinRT">
+				<arch type="x86_32">RapidJSON_WinRT_x86_32.dll</arch>
+				<arch type="x86_64">RapidJSON_WinRT_x86_64.dll</arch>
+				<arch type="arm_32">RapidJSON_WinRT_arm_32.dll</arch>
+			</platform>
+
+			<platform type="WinRT" toolset="wp8">
+				<arch type="x86_32">RapidJSON_WinRT_wp8_x86_32.dll</arch>
+				<arch type="arm_32">RapidJSON_WinRT_wp8_arm_32.dll</arch>
+			</platform>
+
+			<platform type="Mac">
+				<arch type="ppc_32">RapidJSON_Mac.dylib</arch>
+				<arch type="ppc_64">RapidJSON_Mac.dylib</arch>
+				<arch type="x86_32">RapidJSON_Mac.dylib</arch>
+				<arch type="x86_64">RapidJSON_Mac.dylib</arch>
+			</platform>
+
+			<platform type="Linux">
+				<arch type="x86_32">RapidJSON_Linux.so</arch>
+			</platform>
+
+			<platform type="iOS">
+				<arch type="arm_v6">RapidJSON_iOS.a</arch>
+				<arch type="arm_v7">RapidJSON_iOS.a</arch>
+			</platform>
+
+			<platform type="Android">
+				<arch type="arm_v5te">RapidJSON_Android.a</arch>
+			</platform>
+
+			<platform type="Palm">
+				<arch type="arm_v6">RapidJSON_Palm.a</arch>
+			</platform>
+
+			<platform type="BlackBerry">
+				<arch type="arm_v7">RapidJSON_BlackBerry.a</arch>
+			</platform>
+
+			<platform type="Flash">
+				<arch type="noarch">RapidJSON_Flash.swc</arch>
+			</platform>
+
+			<platform type="Wii">
+				<arch type="ppc_32">RapidJSON_Wii.a</arch>
+			</platform>
+
+			<platform type="PS3">
+				<arch type="ppc_32">RapidJSON_PS3.a</arch>
+			</platform>
+
+			<platform type="NaCl">
+				<arch type="x86_32">RapidJSON_NaCl_x86_32.a</arch>
+				<arch type="x86_64">RapidJSON_NaCl_x86_64.a</arch>
+			</platform>
+
+			<platform type="XB360">
+				<arch type="ppc_32">RapidJSON_XB360.lib</arch>
+			</platform>
+
+		</files>
+	</plugin>
+</manifest>
